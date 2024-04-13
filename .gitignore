@@ -1,0 +1,4 @@
+conf.sh
+*/*.conf
+*/*.sh.conf
+*/*.conf.sh
