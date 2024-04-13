@@ -12,7 +12,7 @@ fi
 if [[ -f "bin/discord/discord.sh" ]] ; then
 	alias discordsh='bin/discord/discord.sh'
 else
-	echo -e "requirement discord.sh not found. You can try:\n\t- git submodule init\n\t- git git submodule update\nor:\n\t- git clone https://github.com/fieu/discord.sh.git \"bin/discord\""
+	echo -e "requirement discord.sh not found. You can try:\n\t- git submodule init\n\t- git submodule update\nor:\n\t- git clone https://github.com/fieu/discord.sh.git \"bin/discord\""
 	exit 1
 fi
 
