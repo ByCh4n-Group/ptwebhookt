@@ -1,0 +1,12 @@
+discordsh --webhook-url="${WEBHOOK}" \
+    --username "${SERVERNAME:-"RulePot"}" \
+    --avatar "${AVATAR:-"https://pics.craiyon.com/2023-11-30/5vCa4-Q6QNKjDMwBmnTbNQ.webp"}" \
+    --title "Rule information." \
+    --description "${DESCRIPTION:-"Simple information about any rule.\\n1. new changes..\\n2. new ban system.."}" \
+    --color "${COLOR:-"0x2e954d"}" \
+    --author "RulePot" \
+    --author-icon "${SERVERICON:-"https://pics.craiyon.com/2023-11-30/5vCa4-Q6QNKjDMwBmnTbNQ.webp"}" \
+    --thumbnail "${IMAGE:-"https://cdn-icons-png.flaticon.com/512/10830/10830975.png"}" \
+    --footer "rules" \
+    --footer-icon "${AVATAR:-"https://pics.craiyon.com/2023-11-30/5vCa4-Q6QNKjDMwBmnTbNQ.webp"}" \
+    --timestamp
