@@ -1,0 +1,3 @@
+[submodule "bin/discord"]
+	path = bin/discord
+	url = https://github.com/fieu/discord.sh.git
