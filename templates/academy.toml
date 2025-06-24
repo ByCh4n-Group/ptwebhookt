@@ -1,0 +1,15 @@
+[template]
+name = "Academy"
+description = "Educational content template"
+
+[fields]
+course_title = { type = "text", label = "Course Title", placeholder = "Course name", required = true }
+lesson_content = { type = "textarea", label = "Lesson Content", placeholder = "Lesson details...", required = true }
+instructor = { type = "text", label = "Instructor", placeholder = "Instructor name", required = true }
+difficulty = { type = "select", label = "Difficulty", options = ["Beginner", "Intermediate", "Advanced"], default = "Beginner" }
+duration = { type = "text", label = "Duration", placeholder = "e.g. 2 hours", required = false }
+
+[webhook]
+username = "Academy Bot"
+avatar_url = ""
+color = 3066993  # Green color

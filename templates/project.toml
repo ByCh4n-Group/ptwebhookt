@@ -1,0 +1,15 @@
+[template]
+name = "Project Update"
+description = "Project status and updates"
+
+[fields]
+project_name = { type = "text", label = "Project Name", placeholder = "Name of the project", required = true }
+status = { type = "select", label = "Status", options = ["Started", "In Progress", "Completed", "On Hold"], default = "In Progress" }
+progress = { type = "text", label = "Progress (%)", placeholder = "0-100", required = false }
+description = { type = "textarea", label = "Description", placeholder = "Project details...", required = true }
+next_milestone = { type = "text", label = "Next Milestone", placeholder = "Next milestone", required = false }
+
+[webhook]
+username = "Project Bot"
+avatar_url = ""
+color = 15105570  # Orange color

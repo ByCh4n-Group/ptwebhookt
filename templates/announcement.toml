@@ -1,0 +1,14 @@
+[template]
+name = "Announcement"
+description = "General announcement template"
+
+[fields]
+title = { type = "text", label = "Title", placeholder = "Important announcement title", required = true }
+content = { type = "textarea", label = "Content", placeholder = "Write your announcement content here...", required = true }
+author = { type = "text", label = "Author", placeholder = "Your name", required = false }
+priority = { type = "select", label = "Priority", options = ["Low", "Medium", "High"], default = "Medium" }
+
+[webhook]
+username = "Announcement Bot"
+avatar_url = ""
+color = 5814783  # Blue color
